@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Kasir_Mang_Joni.iml" filepath="$PROJECT_DIR$/.idea/modules/Kasir_Mang_Joni.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Kasir_Mang_Joni.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Kasir_Mang_Joni.app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="690dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="730dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="23dp"
+        android:scrollbars="vertical">
+        implementation "com.google.android.material:material:1.3.0-alpha03"
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="23dp"
+            android:text="Kasir Toko Mang Joni"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:visibility="visible" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp">
+
+            <EditText
+                android:id="@+id/etKodeBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:background="@color/white"
+                android:hint="@string/input_kode"
+                android:inputType="text"
+                android:textColorHighlight="#CB8AE8" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp">
+
+            <EditText
+                android:id="@+id/etJumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:hint="@string/input_jumlah"
+                android:inputType="numberDecimal"
+                android:textColorHighlight="#CB8AE8" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btncari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/cari" />
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/kodebarang"
+            android:textColor="#000000"
+            android:textSize="8pt"
+            android:textStyle="bold" />/>
+
+
+        <TextView
+            android:id="@+id/tvKodeBarang"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/kode_notfound" />
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/nama_barang"
+            android:textColor="#000000"
+            android:textSize="8pt"
+            android:textStyle="bold" />/>
+
+
+        <TextView
+            android:id="@+id/tvNamaBarang"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/barang_notfound" />
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/harga_barang"
+            android:textColor="#000000"
+            android:textSize="8pt"
+            android:textStyle="bold" />/>
+
+
+        <TextView
+            android:id="@+id/tvHargaBarang"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/harga_notfound" />
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/total_harga"
+            android:textColor="#000000"
+            android:textSize="8pt"
+            android:textStyle="bold" />/>
+
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/totalharga_notfound" />
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/diskon"
+            android:textColor="#000000"
+            android:textSize="8pt"
+            android:textStyle="bold" />/>
+
+
+        <TextView
+            android:id="@+id/tvDiskon"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/diskon_notfound" />
+
+        <TextView
+            android:layout_width="122dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/jumlah_bayar"
+            android:textColor="#000000"
+            android:textSize="8pt"
+            android:textStyle="bold" />/>
+
+
+        <TextView
+            android:id="@+id/tvJumlahBayar"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/jumlahbayar_notfound" />
+
+
+    </LinearLayout>
+</ScrollView>
